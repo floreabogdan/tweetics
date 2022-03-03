@@ -1,4 +1,4 @@
-module goweb
+module github.com/floreabogdan/tweetics
 
 go 1.17
 

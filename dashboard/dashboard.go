@@ -1,7 +1,7 @@
 package dashboard
 
 import (
-	"goweb/core"
+	"github.com/floreabogdan/tweetics/core"
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

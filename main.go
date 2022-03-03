@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"goweb/core"
-	"goweb/dashboard"
+	"github.com/floreabogdan/tweetics/core"
+	"github.com/floreabogdan/tweetics/dashboard"
 
 	"github.com/sirupsen/logrus"
 )
