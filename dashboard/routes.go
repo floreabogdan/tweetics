@@ -11,7 +11,7 @@ func (d *Dashboard) initRoutes() {
 	d.engine.LoadHTMLGlob("static/views/**/**")
 	d.engine.Use(static.Serve("/static/assets", static.LocalFile("static/assets", false)))
 
-	d.engine.GET("/ping", func(c *gin.Context) {
+	d.engine.GET("/", func(c *gin.Context) {
 		// c.JSON(200, gin.H{
 		// 	"message": "pong",
 		// })
